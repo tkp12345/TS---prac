@@ -1,10 +1,11 @@
-import React from 'react';
+import React ,{useEffect,useState}from 'react';
+import BankMap from '../bank/bankmap';
 
 const Bank = () => {
     return (
-        <div>
-            
-        </div>
+    <>
+        <BankMap></BankMap>    
+      </>
     );
 };
 

@@ -1,67 +1,58 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
-
 body {
-margin: 0;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-/* height:100%; */
-overflow-y: scroll;
-/* overflow: hidden; */
-height:100%;
-align-items: center;
-width:100%;
-justify-content: center;
-background : linear-gradient(to bottom,#6756be,#dff1ff);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* height:100%; */
+  overflow-y: scroll;
+  /* overflow: hidden; */
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background: linear-gradient(to bottom, #6756be, #dff1ff);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-section .color
-{
+section .color {
   position: absolute;
   filter: blur(150px);
-  margin-top:50px;
+  margin-top: 50px;
 }
 
-section .color:nth-child(1)
-{
+section .color:nth-child(1) {
   top: 50px;
   width: 600px;
   height: 600px;
   background: #e198bd;
 }
 
-section .color:nth-child(2)
-{
+section .color:nth-child(2) {
   bottom: -150px;
-  left: 100px; 
+  left: 100px;
   width: 500px;
   height: 500px;
   background: #ccffe7;
 }
 
-section .color:nth-child(3)
-{
+section .color:nth-child(3) {
   /* bottom: 50px; */
-  top:50px;
-  right: 100px; 
+  top: 50px;
+  right: 100px;
   width: 500px;
   height: 500px;
   background: #b57bd8;
 }
-
-
